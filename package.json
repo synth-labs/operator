@@ -1,6 +1,6 @@
 {
   "name": "@synthesis-labs/operator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Operator is a simple, type-safe state management library, inspired by the observable pattern.",
   "main": "dist/index.js",
   "scripts": {

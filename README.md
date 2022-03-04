@@ -9,11 +9,11 @@ The name comes from the movie Matrix where the operators are crew members on the
 The package is available on NPM, you can install it either with npm or yarn:
 
 ```
-npm install @synth-labs/operator
+npm install @synthesis-labs/operator
 ```
 
 ```
-yarn add @synth-labs/operator
+yarn add @synthesis-labs/operator
 ```
 
 ## Usage
