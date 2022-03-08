@@ -1,6 +1,6 @@
 {
   "name": "@synthesis-labs/operator",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Operator is a simple, type-safe state management library, inspired by the observable pattern.",
   "main": "dist/index.js",
   "scripts": {
@@ -18,12 +18,8 @@
     "url": "https://github.com/synth-labs/operator/issues"
   },
   "homepage": "https://github.com/synth-labs/operator#readme",
-  "dependencies": {
-    "uuid": "^8.3.2"
-  },
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "@types/uuid": "^8.3.4",
     "typescript": "^4.6.2"
   },
   "files": [
