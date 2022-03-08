@@ -52,7 +52,7 @@ class Store<T> {
   addListeners(listeners: CallbackMap<T>): CallbackIdMap<T> {
     const listenerIds: Record<string, string> = {};
     Object.entries(listeners).forEach(([field, listener]): void => {
-      const key: string = v4();
+      const key: string = `${Math.random()}${Math.random()}`;
       listenerIds[field] = key;
 
       let m = this.listeners[field as keyof T];
