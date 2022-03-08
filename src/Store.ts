@@ -1,5 +1,3 @@
-import { v4 } from "uuid";
-
 import Callback from "./Callback";
 import CallbackMap from "./CallbackMap";
 import CallbackIdMap from "./CallbackIdMap";
