@@ -1,7 +1,7 @@
 name: Pull request
 on: [pull_request]
 jobs:
-  some-job-name:
+  test:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a pull request."
@@ -16,4 +16,4 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: echo "🖥️ The workflow is now ready to test the code on the runner."
       - run: npm install
-      - run: npm run build
+      - run: npm run test
