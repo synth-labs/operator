@@ -6,3 +6,7 @@ dist
 
 # mac
 .DS_Store
+
+# test
+.nyc_output
+coverage
